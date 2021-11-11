@@ -43,7 +43,7 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 6rem;
+    font-size: 6vh;
 }
 
 h2{
@@ -52,14 +52,14 @@ h2{
 
 h3{
     font-family: var(--Abel);
-    font-size: 3rem;
+    font-size: 3vh;
 }
 
 button.btn{
     border: none;
-    border-radius: 2rem;
-    padding: 1rem 3rem;
-    font-size: 1.5rem;
+    border-radius: 2vh;
+    padding: 1vh 3vh;
+    font-size: 1.5vh;
     font-family: var(--Livvic);
     cursor: pointer;
 }
@@ -70,8 +70,8 @@ button.btn{
 
 .nav{
     background: white;
-    padding: 0 2rem;
-    height: 0rem;
+    padding: 0 2vh;
+    height: 0vh;
     min-height: 7vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
@@ -92,30 +92,30 @@ button.btn{
 .nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
-    padding: 1.7rem 0;
+    padding: 1.7vh 0;
 }
 
 .nav .toggle-collapse .toggle-icons i{
-    font-size: 1.4rem;
+    font-size: 1.4vh;
     color: var(--text-white);
 }
 
 .collapse{
-    height: 30rem;
+    height: 30vh;
 }
 
 .nav .nav-items{
     display: flex;
     margin: 0;
-    padding: 0 10rem 0 0;
+    padding: 0 7vh 0 0;
 }
 
 .nav .nav-items .nav-link{
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
+    padding: 1.8vh 2vh;
+    font-size: 1.1vh;
     position: relative;
     font-family: var(--Abel);
-    font-size: 1.7rem;
+    font-size: 2.3vh;
 }
 
 .nav .nav-items .nav-link:hover{
@@ -127,11 +127,11 @@ button.btn{
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
-    padding: 0.4rem 5rem;
+    font-size: 1.6vh;
+    padding: 1.5vh 5vh;
     display: block;
     font-family: var(--Lexend);
-    font-size: 2.6rem;
+    font-size: 3vh;
 }
 
 main .site-title{
@@ -143,17 +143,17 @@ main .site-title{
 }
 
 main .site-title .site-background{
-    padding-top: 15rem;
+    padding-top: 23vh;
     text-align: center;
     color: var(--white);
 }
 
 main .site-title h1, h3{
-    margin: .3rem;
+    margin: .3vh;
 }
 
 main .site-title .btn{
-    margin: 1.8rem;
+    margin: 1.8vh;
     /* background: var(--sky); */
 }
 
